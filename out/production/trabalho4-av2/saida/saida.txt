@@ -1,0 +1,12 @@
+esse grafo possui
+numero de vertices igua a: 5
+numero de arestas igua a: 5
+o valor do grau maximo desse grafo é igua a: 4
+o valor do grau minimo desse grafo é igua a: 1
+o valor do grau medio desse grafo é igua a: 2.0
++-------------+
+1 Nó pai: 5 distancia a origem: 1
+2 Nó pai: 5 distancia a origem: 1
+3 Nó pai: 5 distancia a origem: 1
+4 Nó pai: 5 distancia a origem: 1
+5 Nó pai: 5 distancia a origem: 0

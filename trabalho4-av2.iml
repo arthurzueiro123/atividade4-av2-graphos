@@ -7,5 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="guava-31.0.1-jre" level="project" />
+    <orderEntry type="library" name="failureaccess-1.0.1" level="project" />
+    <orderEntry type="library" name="gs-core-2.0" level="project" />
+    <orderEntry type="library" name="gs-ui-swing-2.0" level="project" />
   </component>
 </module>

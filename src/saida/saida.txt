@@ -5,8 +5,20 @@ o valor do grau maximo desse grafo é igua a: 4
 o valor do grau minimo desse grafo é igua a: 1
 o valor do grau medio desse grafo é igua a: 2.0
 +-------------+
-1 Nó pai: 2 distancia a origem: 1
-2 Nó pai: 2 distancia a origem: 0
-3 Nó pai: 5 distancia a origem: 2
+1 Nó pai: 5 distancia a origem: 2
+2 Nó pai: 5 distancia a origem: 2
+3 Nó pai: 3 distancia a origem: 0
 4 Nó pai: 5 distancia a origem: 2
-5 Nó pai: 2 distancia a origem: 1
+5 Nó pai: 3 distancia a origem: 1
++busca-profundidade-+
+1 Nó pai: 2
+2 Nó pai: 5
+3 Nó pai: 3
+4 Nó pai: 5
+5 Nó pai: 3
++busca-profundidade-recursiva-+
+1 Nó pai: 2
+2 Nó pai: 5
+3 Nó pai: 3
+4 Nó pai: 5
+5 Nó pai: 3

@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c47b51-1544-4fd1-81bb-76e5332fc8b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gs_core_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gs_ui_swing_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_31_0_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliGraph/GraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliGraph/Tutorial1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafo/BuscaPorProfundidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainDIJKSTRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ativ6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-av2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ex1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ex2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafo/SSSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafo/SSSPRecursivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/entrada/entrada2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/entrada/entrada2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Aresta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Aresta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Grafo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Grafo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/No.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/No.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/saida/saida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/saida/saida.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entrada/entrada2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/entrada/entrada2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafo/Aresta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/Aresta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafo/Grafo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/Grafo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafo/No.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/No.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/saida/saida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/saida/saida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalho4-av2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trabalho4-av2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,7 +59,7 @@
       <recent name="C:\Users\arthur\Desktop\unifor\5-semestre\Resolucao de problemas com grafos\trabalho4-av2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainDIJKSTRA">
     <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BibliGraph.GraphTest" />
       <module name="trabalho4-av2" />
@@ -70,6 +75,13 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="trabalho4-av2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDIJKSTRA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainDIJKSTRA" />
       <module name="trabalho4-av2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,20 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testGraphDraw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testGraphDraw" />
-      <module name="trabalho4-av2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDIJKSTRA" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tutorial1" />
         <item itemvalue="Application.GraphTest" />
         <item itemvalue="Application.TestGraphDraw" />
-        <item itemvalue="Application.testGraphDraw" />
       </list>
     </recent_temporary>
   </component>
@@ -136,25 +141,70 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1634176523908" />
-    <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1635402741448">
+    <state width="639" height="290" key="GridCell.Tab.0.bottom" timestamp="1637235044612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635402741448" />
-    <state width="1323" height="170" key="GridCell.Tab.0.center" timestamp="1635402741447">
+    <state width="639" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
+    <state width="639" height="290" key="GridCell.Tab.0.center" timestamp="1637235044612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635402741447" />
-    <state width="1323" height="170" key="GridCell.Tab.0.left" timestamp="1635402741447">
+    <state width="639" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
+    <state width="639" height="290" key="GridCell.Tab.0.left" timestamp="1637235044612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635402741447" />
-    <state width="1323" height="170" key="GridCell.Tab.0.right" timestamp="1635402741447">
+    <state width="639" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
+    <state width="639" height="290" key="GridCell.Tab.0.right" timestamp="1637235044612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635402741447" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1635417733978">
+    <state width="639" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
+    <state width="639" height="226" key="GridCell.Tab.1.bottom" timestamp="1637208084539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1635417733978" />
+    <state width="639" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637208084539" />
+    <state width="639" height="226" key="GridCell.Tab.1.center" timestamp="1637208084539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1637208084539" />
+    <state width="639" height="226" key="GridCell.Tab.1.left" timestamp="1637208084539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1637208084539" />
+    <state width="639" height="226" key="GridCell.Tab.1.right" timestamp="1637208084539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1637208084539" />
+    <state x="368" y="6" key="SettingsEditor" timestamp="1637207362479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1637207362479" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1637232040131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1637232040131" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/grafo/SSSP.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/grafo/SSSP.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/grafo/SSSP.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trabalho4_av2$Main.ic" NAME="Main Coverage Results" MODIFIED="1637207942286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/trabalho4_av2$MainDIJKSTRA.ic" NAME="MainDIJKSTRA Coverage Results" MODIFIED="1637207956872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

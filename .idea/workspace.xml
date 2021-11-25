@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c47b51-1544-4fd1-81bb-76e5332fc8b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MainDIJKSTRA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ativ6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-av2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ex1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ex2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafo/SSSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafo/SSSPRecursivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainBellmanFord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ativ7-ex1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entrada/entrada-ativ7-ex2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafo/BellmanFord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Aresta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Aresta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Grafo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/Grafo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/No.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/No.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/saida/saida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalho4-av2/saida/saida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grafo/Aresta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/Aresta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grafo/Grafo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/Grafo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grafo/No.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafo/No.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saida/saida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/saida/saida.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trabalho4-av2/grafo/SSSPRecursivo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +47,7 @@
       <recent name="C:\Users\arthur\Desktop\unifor\5-semestre\Resolucao de problemas com grafos\trabalho4-av2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDIJKSTRA">
+  <component name="RunManager" selected="Application.MainBellmanFord">
     <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BibliGraph.GraphTest" />
       <module name="trabalho4-av2" />
@@ -80,22 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDIJKSTRA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainDIJKSTRA" />
+    <configuration name="MainBellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainBellmanFord" />
       <module name="trabalho4-av2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGraphDraw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="libGraphica.TestGraphDraw" />
+    <configuration name="MainDIJKSTRA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainDIJKSTRA" />
       <module name="trabalho4-av2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="libGraphica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainBellmanFord" />
         <item itemvalue="Application.MainDIJKSTRA" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tutorial1" />
         <item itemvalue="Application.GraphTest" />
-        <item itemvalue="Application.TestGraphDraw" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +123,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1634176523908" />
-    <state width="639" height="290" key="GridCell.Tab.0.bottom" timestamp="1637235044612">
+    <state x="820" y="257" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1637812700842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
-    <state width="639" height="290" key="GridCell.Tab.0.center" timestamp="1637235044612">
+    <state x="820" y="257" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1637812700842" />
+    <state width="639" height="399" key="GridCell.Tab.0.bottom" timestamp="1637836996446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
-    <state width="639" height="290" key="GridCell.Tab.0.left" timestamp="1637235044612">
+    <state width="639" height="399" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637836996446" />
+    <state width="639" height="399" key="GridCell.Tab.0.center" timestamp="1637836996446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
-    <state width="639" height="290" key="GridCell.Tab.0.right" timestamp="1637235044612">
+    <state width="639" height="399" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1637836996446" />
+    <state width="639" height="399" key="GridCell.Tab.0.left" timestamp="1637836996445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1637235044612" />
+    <state width="639" height="399" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1637836996445" />
+    <state width="639" height="399" key="GridCell.Tab.0.right" timestamp="1637836996446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="399" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1637836996446" />
     <state width="639" height="226" key="GridCell.Tab.1.bottom" timestamp="1637208084539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="368" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1637207362479" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1637232040131">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1637809028024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1637232040131" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1637809028024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
